@@ -41,6 +41,7 @@ password: secret
 
 ```
 $ cd <PROJECT-FOLDER>
+$ npm install
 $ sails lift
 ```
 You can now access the web app in a browser through the URL
