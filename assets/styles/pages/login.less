@@ -1,0 +1,89 @@
+
+body, html {
+  height: 100%;
+}
+
+.login-page {
+  height: 100%;
+  background-image: url("../images/login-bg.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.login-card {
+  border: none;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 0;
+}
+
+.login-header {
+  background: #1e2a46;
+  text-align: center;
+  color: white;
+  border-radius: 0 !important;
+}
+
+.login-logo {
+  max-height: 50px;
+}
+
+.login-form {
+
+}
+
+.login-text {
+  color: #6f6d6f;
+  font-size: 30px;
+}
+
+.login-input::placeholder {
+  color: #c1c1c1;
+  opacity: 1; /* Firefox */
+}
+
+.login-input {
+  border: none;
+  border-bottom: 1px solid #c1c1c1;
+  border-radius: 0;
+  background: transparent;
+  padding-left: 0;
+}
+
+.login-input:focus {
+  border: none;
+  border-bottom: 1px solid #c1c1c1;
+  border-radius: 0;
+  background: transparent;
+  padding-left: 0;
+}
+
+.login-btn {
+  background-color: #efcd67;
+  color: white;
+  font-size: x-large;
+  border-radius: 0;
+}
+
+.callout-danger {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #d9534f;
+  h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #d9534f;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  code {
+    border-radius: 3px;
+  }
+  & + .bs-callout {
+    margin-top: -5px;
+  }
+}

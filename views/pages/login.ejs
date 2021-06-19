@@ -1,0 +1,33 @@
+<div class="login-page">
+  <div class="container-fluid pt-5 pb-5">
+    <div style="max-width: 350px;" class="mx-auto mt-5">
+      <%if (error !== false) { %>
+        <div class="callout-danger bg-white">
+          <h4>Error</h4>
+          <%= error %>
+        </div>
+      <% } %>
+      <div class="card shadow-lg login-card">
+        <div class="card-header login-header">
+          <img class="login-logo" src="../images/login-logo.png">
+        </div>
+        <div class="card-body">
+          <form class="login-form" method="post" action="/login">
+            <p class="text-center login-text">Company Login</p>
+            <div class="form-group">
+              <input type="text" name="username" class="form-control login-input" placeholder="Username" required="" autofocus="">
+              <div class="invalid-feedback">Please provide a username.</div>
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" class="form-control login-input" placeholder="Password" required="">
+              <div class="invalid-feedback">Please enter your password.</div>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-lg btn-block login-btn">Sign In</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
