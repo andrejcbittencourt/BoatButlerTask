@@ -14,10 +14,10 @@ Sails.js was the chosen Node.js framework because it fulfills all the requiremen
 - MVC Pattern
 - Secure and scalable RESTful APIs
 
-###Passport.js
+### Passport.js
 Passport.js was used to serve as the middleware responsible for the login functionality.
 
-###jQuery Bootstrap
+### jQuery Bootstrap
 jQuery and Bootstrap serve as the front-end layer for the client.
 
 ## Installation
