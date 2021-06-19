@@ -21,6 +21,15 @@ Passport.js was used to serve as the middleware responsible for the login functi
 jQuery and Bootstrap serve as the front-end layer for the client.
 
 ## Installation
+
+You will need to install Node.js if you did not yet, head on to their website to see instructions on how to do it:
+https://nodejs.org/en/
+
+You also need Sails.js installed
+```
+$ npm install sails -g
+```
+
 A SQL database is necessary in order for the app to function correctly.
 Change the following line in the file *config/datastore.js* to reflect the configuration of the database
 ```
