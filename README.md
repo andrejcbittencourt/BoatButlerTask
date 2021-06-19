@@ -33,7 +33,7 @@ $ npm install sails -g
 A SQL database is necessary in order for the app to function correctly.
 Change the following line in the file *config/datastore.js* to reflect the configuration of the database
 ```
-user: '<DATABASE-USER>'
+user: '<DATABASE-USER>',
 password: '<USER-PASSWORD>',
 port: '<PORT>',
 host: '<HOST>',
