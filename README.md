@@ -55,7 +55,7 @@ $ sails lift
 ```
 You can now access the web app in a browser through the URL
 ```
-http://<HOST>:1337/
+http://localhost:1337/
 ```
 
 ## Contributing
